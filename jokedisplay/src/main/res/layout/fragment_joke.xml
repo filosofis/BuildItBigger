@@ -2,12 +2,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.jokedisplay.JokeActivityFragment">
-
+    tools:context="com.example.jokedisplay.JokeActivityFragment"
+    android:background="@color/colorPrimaryDark">
     <TextView
         android:id="@+id/joke_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/missing_joke" />
-
+        android:text="@string/missing_joke"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:textSize="18sp"/>
 </FrameLayout>
